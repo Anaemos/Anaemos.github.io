@@ -1,11 +1,11 @@
 :root {
-  --primary: #89b4fa;
+  --primary: #D3D3D3;
   /* This is the primary color. */
-  --secondary: #a6e3a1;
+  --secondary: #B8860B;
   /* This is the secondary color. */
-  --bg: #1e1e2e;
+  --bg: #351f45;
   /* This is the background color. */
-  --heading: #cdd6f4;
+  --heading: #149e9e;
   /* This is the color for headings. */
   --text: #cdd6f4;
   /* This is the color for text. */
@@ -113,7 +113,7 @@ img {
 }
 
 .logo_syn:hover {
-  transform: rotate(360deg);
+  transform: rotateY(180deg);
 }
 
 /* Header */
@@ -198,6 +198,7 @@ section {
 .fa-html5,
 .fa-css3-alt,
 .fa-react,
+.fa-database,
 .fa-js,
 .fa-node {
   /* The skill icons will have a font size of clamp(2rem, 5vw, 5rem), a margin of 30px 10px, and a color of var(--primary). */
@@ -214,7 +215,7 @@ section {
 .fa-html5:hover,
 .fa-css3-alt:hover,
 .fa-react:hover,
-.fa-js:hover,
+.fa-database:hover,
 .fa-node:hover {
   color: var(--secondary);
   text-shadow: 0 0 50px #a6e3a1;
